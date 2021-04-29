@@ -10,12 +10,13 @@ footer {
   line-height: 1.5;
 }
 h1 {
-  font-size: 48px;
+  font-size: 3.1rem;
   padding-bottom: 5px;
+  font-weight: 900;
 }
 h2,
 h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   padding-bottom: 5px;
 }
 
@@ -24,9 +25,11 @@ a,
 li,
 h5,
 button {
-  font-size: 18px;
+  font-size: 1.2rem;
 }
-
+a {
+  text-decoration: none;
+}
 nav {
   width: 96%;
   margin: auto;
@@ -54,14 +57,15 @@ nav ul {
 nav li {
   padding: 2px 3%;
   list-style: none;
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: 800;
+  font-size: 1.5rem;
 }
 .nav-items {
+  padding: 4px 15px;
   text-decoration: none;
   color: black;
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 .nav-items:hover {
   background-color: rgb(240, 239, 239);
@@ -77,10 +81,10 @@ nav li {
 }
 
 .top-contents p {
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .top-caption {
-  font-size: 14px !important;
+  font-size: 0.9rem !important;
 }
 
 .signUP {
@@ -108,7 +112,7 @@ nav li {
   width: 230px;
   height: 45px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   border: 1px solid black;
   border-radius: 10px;
   margin-right: 20px;
@@ -126,7 +130,7 @@ nav li {
   width: 230px;
   height: 45px;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   border: 1px solid black;
   border-radius: 10px;
 }
@@ -190,10 +194,10 @@ nav li {
   height: 240px;
 }
 .videos h2 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 .videos p {
-  font-size: 16px;
+  font-size: 1rem;
   list-style: 32px;
 }
 .yt-link img {
@@ -205,12 +209,13 @@ nav li {
 .discover {
   background-color: #f6f6f6;
   padding: 3%;
+  border-radius: 50px;
 }
 .discover-content {
   max-width: 560px;
 }
 .discover-content h2 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 900;
   padding-bottom: 24px;
 }
@@ -250,7 +255,7 @@ nav li {
 .key-items li {
   list-style: none;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 8px 16px;
   border: none;
   border-radius: 30px;
@@ -258,24 +263,41 @@ nav li {
   background-color: rgb(231, 231, 231);
 }
 
-.start-dis {
+.start-dis-des {
   margin-top: 100px;
   background-color: black;
   color: white;
   width: 200px;
   height: 45px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   border: 1px solid black;
   border-radius: 10px;
 }
 
-.start-dis:hover {
+.start-dis-des:hover {
   cursor: pointer;
   background-color: #ff4081;
   border-color: #ff4081;
 }
 
+.start-dis-mob {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 45px;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.start-dis-mob:hover {
+  cursor: pointer;
+  background-color: #ff4081;
+  border-color: #ff4081;
+}
 /* Plan section */
 
 .plan {
@@ -285,7 +307,7 @@ nav li {
   max-width: 560px;
 }
 .plan-content h2 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 900;
   padding-bottom: 24px;
 }
@@ -301,8 +323,8 @@ nav li {
 }
 
 .plan-img img {
-  max-height: 90%;
-  max-width: 90%;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .plan-row1 {
@@ -324,7 +346,7 @@ nav li {
 .plan-items li {
   list-style: none;
   text-align: center;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 8px 16px;
   border: none;
   border-radius: 30px;
@@ -348,11 +370,11 @@ nav li {
   border-radius: 20px;
 }
 .bottom-container h2 {
-  font-size: 34px;
+  font-size: 2.1rem;
   padding-bottom: 5px;
 }
 .bottom-container h5 {
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 .start-now {
   margin-top: 20px;
@@ -362,7 +384,7 @@ nav li {
   height: 45px;
   font-family: "Inter", sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   border: 1px solid black;
   border-radius: 10px;
   cursor: pointer;
@@ -398,7 +420,7 @@ footer {
   font-family: "Inter", sans-serif;
   cursor: pointer;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: black;
   font-weight: 600;
   margin: 0 15px;
@@ -433,11 +455,6 @@ footer {
 
 @media only screen and (max-width: 500px) {
   .start-now {
-    width: 80vw;
-    height: 7vh;
-    border-radius: 7px;
-  }
-  .start-dis {
     width: 80vw;
     height: 7vh;
     border-radius: 7px;
@@ -506,9 +523,12 @@ footer {
     text-align: left !important;
   }
   .founders-content li {
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 24px;
     margin-bottom: 4px;
+  }
+  .start-dis-des {
+    display: none;
   }
 
   .discover-row1,
@@ -519,7 +539,7 @@ footer {
   }
   .discover-content,
   .plan-content {
-    width: 98vw;
+    width: 80vw;
     margin: auto;
   }
   .discover-content p,
@@ -536,7 +556,7 @@ footer {
 
   .key-items ul,
   .plan-items ul {
-    width: 90vw;
+    width: 80vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -544,7 +564,7 @@ footer {
   }
   .key-items li,
   .plan-items li {
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
 
   .plan-row1 {
@@ -569,12 +589,12 @@ footer {
   }
   .bottom-container h2 {
     padding: 2%;
-    font-size: 18px !important;
+    font-size: 1.2rem !important;
     text-align: center;
   }
   .bottom-container h5 {
     padding: 0 4%;
-    font-size: 13px !important;
+    font-size: 1rem !important;
     text-align: center;
   }
   .foot-section {
@@ -603,16 +623,19 @@ footer {
     padding-bottom: 20px;
   }
 }
-
+@media only screen and (min-width: 780px) {
+  .start-dis-mob {
+    display: none;
+  }
+}
 @media only screen and (max-width: 990px) {
   .nav-items {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .top-contents {
     width: 80%;
   }
-
   .plan-row1 {
     width: 96%;
     margin: auto;
@@ -621,11 +644,11 @@ footer {
 
 @media only screen and (max-width: 1199px) {
   h1 {
-    font-size: 24px;
+    font-size: 1.6rem;
   }
 
   .nav-items {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .top-contents {
@@ -633,7 +656,7 @@ footer {
   }
 
   .top-contents p {
-    font-size: 20px;
+    font-size: 1.3rem;
   }
 
   .founders-img img {
@@ -660,7 +683,7 @@ footer {
     padding-left: 20px;
   }
   .way h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   .videos img {
     width: 100%;
@@ -669,18 +692,18 @@ footer {
 
   .discover-content h2,
   .plan-content h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 900;
     padding-bottom: 24px;
   }
 
   .discover-content p,
   .plan-content p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .key-items li,
   .plan-items li {
-    font-size: 13px;
+    font-size: 0.9rem;
   }
   .key-items,
   .plan-items {
@@ -689,26 +712,26 @@ footer {
     margin: 0;
     padding: 0 0;
   }
-  .start-dis {
+  .start-dis-des {
     margin-top: 2%;
   }
 
   .bottom-container h2 {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 
   .bottom-container h5 {
-    font-size: 18px;
+    font-size: 1.1rem;
   }
   .bottom button {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .toc a {
-    font-size: 18px;
+    font-size: 1.2rem;
   }
   .copyright p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
   footer img {
     width: 80%;
